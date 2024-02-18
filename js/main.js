@@ -3,7 +3,7 @@ const secElement = document.getElementById('seconds');
 const hourElement = document.getElementById('hours');
 const dayElement = document.getElementById('days');
 
-let countDownDate = new Date("Dec 30, 2021 22:00:00").getTime();
+let countDownDate = new Date("Dec 30, 2021 21:00:00").getTime();
 
 // Update the count down every 1 second
 let x = setInterval(function() {
